@@ -1,3 +1,20 @@
-app:
-    resource: '@AppBundle/Controller/'
-    type: annotation
+business:
+    resource: "@BusinessBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+service:
+    resource: "@ServiceBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+object:
+    resource: "@ObjectBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
+player:
+    resource: "@PlayerBundle/Controller/"
+    type:     annotation
+    prefix:   /
+
